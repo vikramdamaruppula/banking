@@ -1,0 +1,87 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px antiquewhite;
+    box-sizing: content-box;
+    margin-bottom: 2px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-right-items{
+    padding: 2px;
+    margin: 10px 15px;
+}
+.header-left{
+    display: flex;
+    padding: 2px;
+    margin:4px 25px;
+    
+
+}
+.logo{
+    width: 38px;
+    height: 36px;
+    padding: 12px;
+}
+
+/* snsns */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 22%; /* Adjust as needed to fit four containers in a row */
+    margin: 1%; /* Adjust spacing between containers */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px;
+    box-shadow: 2px 2px 4px antiquewhite;
+    text-align: center;
+    height: 232px;
+    font-family: cursive;
+}
+.container img {
+    width: 45px;
+    padding-right: 8px;
+}
+
+.container p {
+    text-align: left;
+    margin: 5px 0; /* Optional: Add margin to paragraphs */
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 5rem 5px 12rem;
+    justify-content: space-between; /* Adjust spacing between containers */
+   
+}
+.explore-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.horizontalLine{
+    width: 50%;
+    height:1px;
+    border:1px solid #002D62;
+    background-color: #002D62;
+}
+.horizontal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%; /* Adjust as needed to fit four containers in a row */
+    margin: 1%; /* Adjust spacing between containers */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: cursive;
+    box-shadow: 2px 2px 4px antiquewhite;
+    text-align: center;
+}
+.img1{
+    width: 320px;
+}
